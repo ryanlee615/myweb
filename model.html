@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			.sHoverItem{
+				background:indianred;
+				width:200px;
+				height:150px;
+			}
+			.sIntro{
+				display:block;
+				background: #B0E0E6;
+			}
+			.sIntro h2{
+				margin:2px 0;
+				text-align: center;
+				font-size: 18px;
+			}
+			.sIntro p{
+				margin: 0;
+				padding: 5px;
+			}
+		</style>
+		<script src="sHover/js/sHover.min.js"></script>
+		<script type="text/javascript" >
+		window.onload=function(){
+			var obj = new sHover("sHoverItem", "sIntro");
+			obj.set({
+				speed:7,
+				opacity:50,
+				opacityChange:true
+			});
+		};
+//			$(function(){
+//				$(".btn").click(function(){
+//					$(".box").slideToggle(3000);
+//				})
+//			})
+		</script>
+	</head>
+	<body>
+		<button class="btn">切换</button>
+		<div class="sHoverItem">
+			<span class="sIntro">
+				<h2>Flowers</h2>	
+				<p>Flowers are so inconsistent! But I was too young to know how to love her</p>
+			</span>
+		</div>
+	</body>
+</html>
