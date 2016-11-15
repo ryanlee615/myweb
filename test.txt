@@ -2,4 +2,8 @@
 222222222222
 333333333333333
 lijiyun615@163.com
+<<<<<<< HEAD
 i'm in master branch
+=======
+i'm in master branch
+>>>>>>> new
